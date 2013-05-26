@@ -28,6 +28,10 @@
 		97D76B3F175157C50088CD6A /* stocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D76B43175157C50088CD6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		97D76B45175157C50088CD6A /* stocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = stocks.1; sourceTree = "<group>"; };
+		97D76B4C175157DD0088CD6A /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		97D76B4D175157DD0088CD6A /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		97D76B4E175157DD0088CD6A /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		97D76B4F175157DD0088CD6A /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				97D76B43175157C50088CD6A /* main.cpp */,
+				97D76B4C175157DD0088CD6A /* rapidxml_iterators.hpp */,
+				97D76B4D175157DD0088CD6A /* rapidxml_print.hpp */,
+				97D76B4E175157DD0088CD6A /* rapidxml_utils.hpp */,
+				97D76B4F175157DD0088CD6A /* rapidxml.hpp */,
 				97D76B45175157C50088CD6A /* stocks.1 */,
 			);
 			path = stocks;
