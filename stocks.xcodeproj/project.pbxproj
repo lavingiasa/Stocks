@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97984A301752ECA900F649CD /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97984A2F1752ECA900F649CD /* libcurl.dylib */; };
 		97D76B44175157C50088CD6A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97D76B43175157C50088CD6A /* main.cpp */; };
 		97D76B46175157C50088CD6A /* stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 97D76B45175157C50088CD6A /* stocks.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		97984A2F1752ECA900F649CD /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		97D76B3F175157C50088CD6A /* stocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D76B43175157C50088CD6A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		97D76B45175157C50088CD6A /* stocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = stocks.1; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97984A301752ECA900F649CD /* libcurl.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +51,7 @@
 		97D76B34175157C50088CD6A = {
 			isa = PBXGroup;
 			children = (
+				97984A2F1752ECA900F649CD /* libcurl.dylib */,
 				97D76B42175157C50088CD6A /* stocks */,
 				97D76B40175157C50088CD6A /* Products */,
 			);
@@ -216,6 +220,7 @@
 				97D76B4B175157C50088CD6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
