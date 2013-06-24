@@ -15,6 +15,7 @@
 
 using namespace rapidxml;	
 
+//gets the page using curl
 void get_page( const char* url, const char* file_name )
 {
     CURL* easyhandle = curl_easy_init() ;
@@ -81,6 +82,7 @@ int main(int argc, const char * argv[])
     xml_node<> * results = root_node->first_node("results");
     std::vector<std::vector<std::string> *> stocksVector;
     
+    //looks at the name of each node and puts the arrtibutes in a vector
     for (xml_node<> * stock = results->first_node("quote"); stock; stock = stock->next_sibling())
 	{
         std::vector<std::string> * current = new std::vector<std::string>;
@@ -250,6 +252,7 @@ int main(int argc, const char * argv[])
         current->push_back(stock->first_node("PercentChange")->value());
 
         stocksVector.push_back(current);
+        //puts hte vecktor in a vector
         
         
         std::cout << std::endl << std::endl;
